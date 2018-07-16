@@ -22,8 +22,8 @@ public class Conductor extends Persona{
 	
 	public Conductor(Date fecha_inicio,int contrato) {
 		super();
-		this.setFecha_inicio(fecha_inicio);
-		this.setContrato(contrato);
+		this.fecha_inicio = fecha_inicio;
+		this.contrato = contrato;
 		
 	}
 	

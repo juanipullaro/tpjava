@@ -8,7 +8,8 @@ public class Persona {
 	private String apellido;
 	private int dni;
 	private String tipo_dni;
-	private Date fechaNacimiento;
+	private Date fecha_nacimiento;
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -33,11 +34,19 @@ public class Persona {
 	public void setTipo_dni(String tipo_dni) {
 		this.tipo_dni = tipo_dni;
 	}
-	public Date getFechaNacimiento() {
-		return fechaNacimiento;
+	public Date getFecha_nacimiento() {
+		return fecha_nacimiento;
 	}
-	public void setFechaNacimiento(Date fechaNacimiento) {
-		this.fechaNacimiento = fechaNacimiento;
+	public void setFecha_nacimiento(Date fechaNacimiento) {
+		this.fecha_nacimiento = fechaNacimiento;
+	}
+	
+	public Persona(String nombre, String apellido,int dni, String tipo_dni, Date fecha_nacimiento) {
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.dni = dni;
+		this.tipo_dni = tipo_dni;
+		this.fecha_nacimiento = fecha_nacimiento;
 	}
 	
 		

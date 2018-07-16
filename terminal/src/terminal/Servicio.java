@@ -7,7 +7,7 @@ public class Servicio {
 	
 	
 	private int numero;
-	private Date datetime = new Date();
+	private Date fecha = new Date();
 	
 	public int getNumero() {
 		return numero;
@@ -15,10 +15,15 @@ public class Servicio {
 	public void setNumero(int numero) {
 		this.numero = numero;
 	}
-	public Date getDatetime() {
-		return datetime;
+	public Date getFecha() {
+		return fecha;
 	}
-	public void setDatetime(Date datetime) {
-		this.datetime = datetime;
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
+	}
+	
+	public Servicio(int numero,Date fecha) {
+		this.numero = numero;
+		this.fecha = fecha;
 	}
 }
